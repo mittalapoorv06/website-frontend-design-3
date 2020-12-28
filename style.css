@@ -1,0 +1,90 @@
+/* css reset */
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url("img/pexels-photo-935756.jpeg");
+    
+    background-size: 100% 110%;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.menu{
+    /* border: 2px solid green; */
+    background-color:#0e0c0cab;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    /* position: absolute;
+    top: 4px;
+    left: 8px; */
+}
+.left div{
+    color: white;
+    font-size: 26px;
+    margin: 9px 2px;
+    padding: 9px 12px
+}
+.right{
+     /* border: 2px solid yellow;  */
+    display: inline-block;
+    margin: 0px 117px;
+    /* position: absolute;
+    top: 4px;
+    right: 112px; */
+}
+.right li{
+    display: inline;
+    padding: 6px 12px;
+    margin: 4px 4px;
+}
+.right  li a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 26px;
+    padding: 11px 23px;
+
+}
+.right  li a:hover{
+
+    color: yellow
+
+}
+.text {
+
+    margin-top: 175px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.text h1{
+    font-size: 95px;
+     line-height: 0em; 
+    
+}
+.text h4{
+    font-size: 30px;
+    line-height: 1em; 
+    
+}
+.text h3{
+    line-height: 0em;
+    font-size: 30px;
+    line-height: 1em;
+}
+.btn{
+    color: white;
+    font-size: 35px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 13px;
+    
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(161, 156, 156);
+}
